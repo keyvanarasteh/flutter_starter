@@ -33,6 +33,7 @@ class _InitialScreenState extends State<InitialScreen> {
       // userInfo
 
       if (data["darkMode"] == null) {
+        // there is no darkMode in Storage
         // set Default darkMode
         if (ThemeMode.system == ThemeMode.dark) {
           // device is in dark mode
@@ -41,6 +42,7 @@ class _InitialScreenState extends State<InitialScreen> {
           // device is in light mode
           data["darkMode"] = false;
         }
+        // await storage.writeAppSettings(language: "", darkMode: data["darkMode"]);
       }
 
       if (data["language"] == null) {
@@ -73,9 +75,10 @@ class _InitialScreenState extends State<InitialScreen> {
       if (data["loggedIn"] == null) {
         data["loggedIn"] = false;
         data["userInfo"] = [];
-        storage.writeUserData(isLoggedIn: false, userInfo: []);
+        await storage.writeUserData(isLoggedIn: false, userInfo: []);
       }
 
+      // apply settings to app state
       settings.changeDarkMode(data["darkMode"]);
       settings.changeLanguage(data["language"]);
       if (data["loggedIn"]) {

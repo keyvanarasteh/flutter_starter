@@ -14,22 +14,31 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('ISU Starter'), actions: [
-        InkWell(
-          child: Padding(
-            padding: const EdgeInsets.only(right: 20.0),
-            child: Icon(Iconsax.settings),
+      appBar: AppBar(
+        title: Text('ISU Starter'), 
+        actions: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            child: InkWell(
+              child: Icon(Iconsax.setting_2),
+              onTap: () => GoRouter.of(context).push('/settings'),
+            ),
           ),
-          onTap: () => GoRouter.of(context).push('/settings'),
-        ),
-      ]),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            child: InkWell(
+              child: Icon(Iconsax.user),
+              onTap: () => GoRouter.of(context).push('/profile'),
+            ),
+          ),
+        ],
+      ),
       body: SizedBox.expand(
         child: SingleChildScrollView(
           child: Column(
             children: [
               FadeIn(
                 // duration: Duration(milliseconds: 500),
-
                 child: Container(
                   margin: EdgeInsets.all(8),
                   width: double.infinity,

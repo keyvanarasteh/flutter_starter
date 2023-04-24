@@ -16,7 +16,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          const Text('To use our app your must login or register.'),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(

@@ -7,5 +7,22 @@
     "cancel":"Iptal",
     "login":"Giriş Yap",
     "register": "Üye ol",
-    "continue_no_user": "Giriş Yapmadan Devam Et"
+    "continue_no_user": "Giriş Yapmadan Devam Et",
+    "mail": "E-Posta",
+    "name": "Adiniz",
+    "phone": "Telefon",
+    "passwd": "Şifre",
+    "mail_required": "E-Posta Adresiniz Giriniz.",
+    "name_required": "Please Enter Your Name.",
+    "phone_required": "Please Enter Your Phone Number.",
+    "passwd_length": "Şifre en az 6 haneli olmali.",
+    "email_format": "E-Posta adresiniz doğrulanmadi.",
+    "invalid_credentials" : "Kimlik doğrulanmadi, bilgileriniz kontrol ediniz.",
+    "yes": "Evet",
+    "no": "Hayir",
+    "logout": "Oturumu Kapat",
+    "logout_confirm": "Oturmunuzu Kapatmak istediğinizden eminmisiniz?",
+    "warning": "Uyari",
+    "close": "Kapat",
+    "register_failed": "Kayit hatali, tekrardan kontrol ediniz."
 }

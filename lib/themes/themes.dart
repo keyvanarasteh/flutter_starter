@@ -3,7 +3,9 @@ import 'package:flex_color_scheme/flex_color_scheme.dart';
 
 class Themes {
   static ThemeData lightTheme = FlexThemeData.light(
-    scheme: FlexScheme.aquaBlue,
+    scheme: FlexScheme.deepPurple,
+    // primary: const Color(0xff8315b5),
+    // background: Color(0xff114ba8),
     // useMaterial3: true,
     // primary: const Color(0xff8315b5),
     // background: const Color(0xffffffff),
@@ -11,7 +13,7 @@ class Themes {
   );
 
   static ThemeData darkTheme = FlexThemeData.dark(
-    scheme: FlexScheme.aquaBlue,
+    scheme: FlexScheme.deepPurple,
     // primary: const Color(0xff8315b5),
     // useMaterial3: true,
   );

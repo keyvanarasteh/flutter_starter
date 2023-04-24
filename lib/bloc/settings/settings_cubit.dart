@@ -97,4 +97,5 @@ class SettingsCubit extends Cubit<SettingsState> {
 
     await storage.writeUserData(isLoggedIn: true, userInfo: userInfo);
   }
+
 }
