@@ -1,0 +1,11 @@
+{
+    "settings":"Settings",
+    "language":"Language",
+    "darkMode":"Dark Mode",
+    "language_selection":"Language Selection",
+    "language_selection2":"Choose your prefered language",
+    "cancel":"Cancel",
+    "login":"Login",
+    "register": "Register",
+    "continue_no_user": "Continue without logging in"
+}

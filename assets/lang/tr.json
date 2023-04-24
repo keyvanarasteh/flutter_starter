@@ -1,0 +1,11 @@
+{
+    "settings":"Ayarlar",
+    "language":"Dil",
+    "darkMode":"Gece Modu",
+    "language_selection":"Dil Seçimi",
+    "language_selection2":"Tercih ettiğiniz dili seçiniz",
+    "cancel":"Iptal",
+    "login":"Giriş Yap",
+    "register": "Üye ol",
+    "continue_no_user": "Giriş Yapmadan Devam Et"
+}
